@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,QA B2-edge,Review ba ca L_only,Kiểm tra ba frame theo R01,open
+2,2026-09-28,Edge geometry,Keep with reason,Độ méo fisheye làm box edge nhạy theo ngưỡng IoU,accepted
+3,2026-09-28,Model M_only,Escalate,Model có nhiều box thừa ở mid cần soi hard negative,escalated
+4,2026-09-28,Rework scope,Rework,Ưu tiên ca missing và wrong class trước khi chốt,open

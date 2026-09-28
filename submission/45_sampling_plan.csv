@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,28,medium,Phần trước xe có nhiều trường hợp vật lạ ở vùng nhìn trước và dễ nhầm ở mép kính; muốn giữ mẫu đa dạng nhưng không quá lệch về vùng dễ.
+front,hard,22,high,Giới thiệu ca khó ở front: vật lướt mép, chồng ánh sáng, hoặc bám mép kính làm dễ nhầm class và bounding box.
+rear,normal,26,medium,Rear có đủ các đối tượng dễ nhận diện nhưng cần giữ một lượng khá cân bằng cho mặt phẳng phía sau khi kiểm sự không thống nhất giữa khoảng cách và ignore.
+rear,hard,24,high,Rear dễ bị che bởi trụ, góc xe hoặc bóng, nên cần thêm ca khó ở vùng mép và vật sát mép ảnh.
+left,normal,24,medium,Left cần bình ổn cho khu vực bên theo hướng dọc, nơi nhiều vật có phần thân nằm trong vùng còn nhìn thấy nhưng bị méo do fisheye.
+left,hard,26,high,Left thường có nguy cơ nhầm giữa phương tiện nhỏ, người đi bộ và vật cản ở góc gần/bên hông do hiệu ứng méo và bad occlusion.
+right,normal,22,medium,Right cần đủ mẫu cho vùng phải và kiểm xem có sai lệch do ánh sáng hoặc góc xe như ở front/rear không.
+right,hard,28,high,Right tập trung vào ca khó ở mép kính và hội tụ của nhiều vật trong một không gian hẹp, là vùng đáng ưu tiên để phát hiện sai class và ignore.

@@ -1,0 +1,23 @@
+# So sánh L với R
+
+Chỉ số L/R là thứ tự box cao ≥ H=40 trong từng frame, theo thứ tự XML; bắt đầu từ 1.
+Box L trong ignore_region được báo IGNORE_SCOPE, không tính SPURIOUS.
+
+## adasind_069450.jpg
+- L7 edge IGNORE_SCOPE
+- L3 mid SPURIOUS
+## adasind_082170.jpg
+- L9 edge IGNORE_SCOPE
+- L5+R5 edge BOX_GEOMETRY
+## adasind_102750.jpg
+- L3 edge IGNORE_SCOPE
+- L1 center SPURIOUS
+- L2+R2 edge WRONG_CLASS
+- R5 center MISSING
+
+## Theo zone
+| zone | n_ref | matched | missing | spurious |
+|---|---|---|---|---|
+| center | 6 | 5 | 1 | 1 |
+| mid | 6 | 6 | 0 | 1 |
+| edge | 6 | 4 | 2 | 2 |
