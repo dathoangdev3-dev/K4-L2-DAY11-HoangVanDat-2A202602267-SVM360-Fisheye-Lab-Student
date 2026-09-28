@@ -1,7 +1,5 @@
 # Tự soát
 
-Nguồn rework: cùng `final_b2_day11.zip`, khóa `E999-723D`. So với khóa r1 cũ `CF0B-A49C`: thêm `ego_body`, còn 19 box in-scope, không còn cảnh báo chiều cao < H.
-
 - Tên task thiếu raw_fisheye
 
 ## Checklist thủ công

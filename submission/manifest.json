@@ -65,8 +65,8 @@
     },
     {
       "file": "r1_craft/selfqc.md",
-      "lines": 26,
-      "sha256": "b651ca82b609460bd89707b46f2324b0919582e6dc313445f5a527b2952bd6f5"
+      "lines": 17,
+      "sha256": "9e7e4100af9a20174b9aff6255688dfa0bfbb179b6cb032b0a96974fbbe80d4b"
     },
     {
       "file": "r1_craft/reference.txt",
@@ -152,8 +152,8 @@
     },
     {
       "file": "10_error_card.md",
-      "lines": 29,
-      "sha256": "1eea6665dae16cb45f52e814d439e775dfc35430d2a927100747906a6ce6a2c4"
+      "lines": 44,
+      "sha256": "53a38f8883ad07e298055750d933aea17cfb530dcfa48013fdf78de9e1624dc2"
     },
     {
       "file": "20_guideline_patch.md",
@@ -191,7 +191,5 @@
       "sha256": "a51026064f6cd6d4aff0bf8840bc26bd1ab3da34a1fe4566fbcb45a40ad1ec7d"
     }
   ],
-  "failed_gates": [
-    "Còn TODO trong 10_error_card.md"
-  ]
+  "failed_gates": []
 }
