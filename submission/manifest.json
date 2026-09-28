@@ -27,51 +27,51 @@
     },
     {
       "file": "p1_calib/annotations.xml",
-      "lines": 289,
-      "sha256": "cd29d3280a7e7e36a9aa09eac6b462cf695532c48e930df01dcd8640e0f651f7"
+      "lines": 287,
+      "sha256": "4aa2888d7faa6560c52cfcf0f877c3c8a47829855f2dbd5a06168d4c13d21bc0"
     },
     {
       "file": "p1_calib/lock.txt",
-      "lines": 9,
-      "sha256": "77812eb8c337eb975014a3cf4946802839a133b5f880ba365a33d3dfcfe54ccc",
-      "locked_at": "2026-09-28T16:58:23+07:00"
+      "lines": 19,
+      "sha256": "ef3fc749c2f51a457e2fec307d709c0bf99451c28143a75f2dc3ceb1dd32b761",
+      "locked_at": "2026-09-28T17:42:55+07:00"
     },
     {
       "file": "p1_calib/reference.txt",
       "lines": 3,
-      "sha256": "fa7e76b44c59bd90b0d026fb59d75fb213c9039fd754583d7e0c4c572170ca67",
+      "sha256": "5c5f2ea3c894d3efae6d0bc4f930210b604575313b77244263d38f52615f222a",
       "lock_before_reveal": true
     },
     {
       "file": "p1_calib/compare.md",
       "lines": 15,
-      "sha256": "f44b71f32939cb2782342e1fca459217cf9cb6295351d6449fb73772122ebc39"
+      "sha256": "dd376a3f11af28fd4138449a43feaf087a5b613b8b264eaa7f68ac14713c9625"
     },
     {
       "file": "p1_calib/compare.html",
       "lines": 32,
-      "sha256": "8b08e904a51a51d26e316c54251ee5dd6b5b3cbf8b3d3c8ac4933be76917aadf"
+      "sha256": "2198f0e3db7b1d2eac0a9dc3a4ac7d63a471c0468646f13f4572d26992962574"
     },
     {
       "file": "r1_craft/annotations.xml",
-      "lines": 394,
-      "sha256": "a776e428a84b0761187a01b745febbd29d4c0cadb6b0e1489ca3d98b83ed18ff"
+      "lines": 388,
+      "sha256": "cf0ba49cc457c5827f0a814e33e840221eae456ecadbcdb42e0b281098cf70d2"
     },
     {
       "file": "r1_craft/lock.txt",
-      "lines": 9,
-      "sha256": "d1841e28b71aeb504992e62c5b0861d446f2b5a2c9c16ee5df64d1ca03382685",
-      "locked_at": "2026-09-28T17:35:59+07:00"
+      "lines": 19,
+      "sha256": "dd40bce7f44df16f85821e802391f65930e8670fc99971591f00ba8e90cb8d03",
+      "locked_at": "2026-09-28T17:42:59+07:00"
     },
     {
       "file": "r1_craft/selfqc.md",
-      "lines": 24,
-      "sha256": "c0d294f6416da2660b6b68339aae7bb8749cfe746c29da68da3395d1867c2c36"
+      "lines": 27,
+      "sha256": "80ecdbb732583649028812af9885f549678895180aa1533420a1783b8dd3c3ec"
     },
     {
       "file": "r1_craft/reference.txt",
       "lines": 3,
-      "sha256": "2993c241684eb9eb696e7265caf406fa550a3391e034ad83120a69c4c4d063df",
+      "sha256": "ed893c67051a803736c8f3d8ee1c47cbdda28c4da4ac06d8640627d0f2f67886",
       "lock_before_reveal": true
     },
     {
@@ -82,32 +82,98 @@
     {
       "file": "r1_craft/compare.html",
       "lines": 92,
-      "sha256": "2a07e8d373250a81dc6c09e1fa22226f914dcd66389e1fc9e26b34b5824e5b9d"
+      "sha256": "5a60ab9fe32ea1dd177c472ee8f5e6a04f7f79cb5df07aeb2a02381d4e234ea7"
+    },
+    {
+      "file": "r2_qa/qa_review.md",
+      "lines": 11,
+      "sha256": "a918d22069a9c9880afa5087787a29c24ab77fa2adfc21e427e9049eaa6fba64"
+    },
+    {
+      "file": "r2_qa/qa_overlay.html",
+      "lines": 56,
+      "sha256": "4e9dab9c9ab496cfc3d1cc32ddc3d2bbdaee06e96f2cec9b0e66ad207cdec83d"
+    },
+    {
+      "file": "r3_diag/local_quality.md",
+      "lines": 47,
+      "sha256": "d138493ff9e3d04b9de03dcefd2f14d9fd3cb9827da58b662416ea4a0e2eb96c"
+    },
+    {
+      "file": "r3_diag/local_quality.json",
+      "lines": 269,
+      "sha256": "2703c75a20babd6a2dd0a721803e7e9e807165d1e14d75e4b005b897fe0be4c8"
+    },
+    {
+      "file": "r3_diag/local_quality_conflicts.csv",
+      "lines": 12,
+      "sha256": "dd73b580ad4c369c6ffe8f0b633cc710110df6d1fea7c4bb28023c1171786e02"
+    },
+    {
+      "file": "r3_diag/local_quality_confusion.csv",
+      "lines": 6,
+      "sha256": "884f2836643de719c044c6332ce0e4322a7f304737e563cfefa5095df7a33307"
+    },
+    {
+      "file": "r3_diag/model_compare.md",
+      "lines": 48,
+      "sha256": "eca22c67fd42249368c2a3b2cf7ec41047ca8e123883433bd35d1f834b3673dc"
+    },
+    {
+      "file": "r3_diag/model_compare.html",
+      "lines": 128,
+      "sha256": "c5bd98ef709bbb3903334be76338de69950aff5691a8b65c5233afad2d2ccdb3"
+    },
+    {
+      "file": "r3_diag/zone_table.md",
+      "lines": 14,
+      "sha256": "51e9792128d5bf41c22ef4c0b26d8c7d96782ebd965212f930392c6070153446"
+    },
+    {
+      "file": "rework/annotations-v2.xml",
+      "lines": 388,
+      "sha256": "cf0ba49cc457c5827f0a814e33e840221eae456ecadbcdb42e0b281098cf70d2"
+    },
+    {
+      "file": "rework/lock2.txt",
+      "lines": 9,
+      "sha256": "37c3bf1b140409d0b667a1c3b1bd29ccce9d47da46b29a920bedb9ff6ed075ee",
+      "locked_at": "2026-09-28T17:45:21+07:00"
+    },
+    {
+      "file": "rework/delta.md",
+      "lines": 16,
+      "sha256": "6c3bf1b064c1a58b5624bf0a87542011e775d675f4206c7df6d2e4fed7f2e8f3"
     },
     {
       "file": "findings.csv",
-      "lines": 11,
-      "sha256": "209b69b0415dde4af2c643028da5bfb8d70a7fba156a8eb505ff11e868e12781"
+      "lines": 21,
+      "sha256": "0e2ff8bfefff46cdb65aee1e2672491d78f7de5e787ea787ac94018dd04f1806"
+    },
+    {
+      "file": "10_error_card.md",
+      "lines": 27,
+      "sha256": "bf0f1f623b4364bc12d5d8663dc47475c4ef1acd911b19bc102127adac2f20f2"
     },
     {
       "file": "20_guideline_patch.md",
       "lines": 7,
-      "sha256": "6ed6f6b0bbe96bbc3cfadb11d8cad28a3875d2f517cdc300552b5b9e4cf81005"
+      "sha256": "38ecb9dc0806fcb2f6b4e8621642bd91665db84b9a56dc9c2ce3864f6286a6ca"
     },
     {
       "file": "30_escalation_ticket.md",
       "lines": 9,
-      "sha256": "94c15fab6fa07d04911253a28db098d3259c358b9e9b698a0d8051cb6f553243"
+      "sha256": "251c86f284eba58860eadbb5b5d24841c9062e4b3002711df96fae26d5374c1b"
     },
     {
       "file": "40_decision_log.csv",
-      "lines": 1,
-      "sha256": "f942315af3c8578e85481ecaa83d5ce59d7c75f58fcecc19c057b25b49428d74"
+      "lines": 5,
+      "sha256": "8d16e0a609c17d4a5322c240f2f9e07bb2aca7faaabbc9db3c8c8505c6a0f8cc"
     },
     {
       "file": "45_review_plan.md",
       "lines": 16,
-      "sha256": "2e17b6e20245302692a71b1778393d8ce6e43fb4b40e774e1b1281cf4a37dae4"
+      "sha256": "6074f60e75f1ce4a2715b3e5d3429c576fea08e371daa8e432670f466fa74add"
     },
     {
       "file": "45_sampling_plan.csv",
@@ -122,33 +188,8 @@
     {
       "file": "50_exit_ticket.md",
       "lines": 11,
-      "sha256": "455a64f9ffef79d6da339ad4272a3c912e9ac0a02bebb077dacd193dbf35228f"
+      "sha256": "de856d3f05e90de643838d99ddcf37273e1c6889cc3ea89ad21249ae4f4c7880"
     }
   ],
-  "failed_gates": [
-    "findings cần ≥12 dòng (hiện 10)",
-    "findings cần ≥4 cell khác na",
-    "findings cần ≥8 dòng có M trong cell",
-    "findings cần ≥3 dòng vai r2_qa",
-    "findings cần ≥3 dòng vai r3_diag",
-    "decision log cần ≥4 entry và ≥1 escalated",
-    "Thiếu file r2_qa/qa_review.md",
-    "Thiếu file r2_qa/qa_overlay.html",
-    "Thiếu file r3_diag/local_quality.md",
-    "Thiếu file r3_diag/local_quality.json",
-    "Thiếu file r3_diag/local_quality_conflicts.csv",
-    "Thiếu file r3_diag/local_quality_confusion.csv",
-    "Thiếu file r3_diag/model_compare.md",
-    "Thiếu file r3_diag/model_compare.html",
-    "Thiếu file r3_diag/zone_table.md (chạy python3 lab11.py model)",
-    "Thiếu file rework/annotations-v2.xml",
-    "Thiếu file rework/lock2.txt",
-    "Thiếu file rework/delta.md",
-    "Thiếu file 10_error_card.md (chạy python3 lab11.py card)",
-    "Còn TODO trong 20_guideline_patch.md",
-    "Còn TODO trong 30_escalation_ticket.md",
-    "Còn TODO trong 45_review_plan.md",
-    "Còn TODO trong 50_exit_ticket.md",
-    "screenshots cần ≥2 ảnh"
-  ]
+  "failed_gates": []
 }
