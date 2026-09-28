@@ -113,17 +113,17 @@
     "fn": 3,
     "outcomes": 21
   },
-  "mean_iou_of_correct_matches": 0.7959201383334877,
+  "mean_iou_of_correct_matches": 0.8086947915270905,
   "excluded_in_ignore_region": {
-    "adasind_069450.jpg": 1,
-    "adasind_082170.jpg": 1,
-    "adasind_102750.jpg": 1
+    "adasind_069450.jpg": 0,
+    "adasind_082170.jpg": 0,
+    "adasind_102750.jpg": 0
   },
   "conflicts": [
     {
       "frame": "adasind_069450.jpg",
       "type": "mismatching_attributes",
-      "left": 2,
+      "left": 4,
       "reference": 1,
       "left_label": "ThreeWheeler",
       "reference_label": "ThreeWheeler",
@@ -132,7 +132,7 @@
     {
       "frame": "adasind_069450.jpg",
       "type": "extra_annotation",
-      "left": 3,
+      "left": 5,
       "reference": "",
       "left_label": "ThreeWheeler",
       "reference_label": "",
@@ -141,7 +141,7 @@
     {
       "frame": "adasind_082170.jpg",
       "type": "mismatching_attributes",
-      "left": 7,
+      "left": 4,
       "reference": 6,
       "left_label": "Bike",
       "reference_label": "Bike",
@@ -150,7 +150,7 @@
     {
       "frame": "adasind_082170.jpg",
       "type": "mismatching_attributes",
-      "left": 6,
+      "left": 3,
       "reference": 4,
       "left_label": "Bike",
       "reference_label": "Bike",
@@ -159,7 +159,7 @@
     {
       "frame": "adasind_082170.jpg",
       "type": "extra_annotation",
-      "left": 5,
+      "left": 2,
       "reference": "",
       "left_label": "Bike",
       "reference_label": "",
@@ -177,7 +177,7 @@
     {
       "frame": "adasind_102750.jpg",
       "type": "mismatching_attributes",
-      "left": 4,
+      "left": 1,
       "reference": 1,
       "left_label": "Truck",
       "reference_label": "Truck",
@@ -195,7 +195,7 @@
     {
       "frame": "adasind_102750.jpg",
       "type": "mismatching_attributes",
-      "left": 5,
+      "left": 3,
       "reference": 4,
       "left_label": "ThreeWheeler",
       "reference_label": "ThreeWheeler",
@@ -204,7 +204,7 @@
     {
       "frame": "adasind_102750.jpg",
       "type": "extra_annotation",
-      "left": 1,
+      "left": 5,
       "reference": "",
       "left_label": "ThreeWheeler",
       "reference_label": "",
@@ -264,6 +264,6 @@
     "adasind_102750.jpg"
   ],
   "frames_missing_from_export": [],
-  "locked_sha256": "cf0ba49cc457c5827f0a814e33e840221eae456ecadbcdb42e0b281098cf70d2",
+  "locked_sha256": "e999723dd7f47603e85221ccad8c6a37508daac2ebcae44f7d165a4e4fa7a9e5",
   "iou_threshold": 0.5
 }

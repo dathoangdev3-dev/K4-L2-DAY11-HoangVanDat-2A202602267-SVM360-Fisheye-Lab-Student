@@ -10,5 +10,5 @@ Lệnh `python3 lab11.py model` tự ghi bảng số (cùng cách đếm với `
 
 ## Nhận xét
 
-- Zone nào người (L) và model (M) gãy nhiều nhất, dẫn số ở bảng trên: Model gãy nhiều nhất ở mid với 4 missing và 8 thừa; người gãy nhiều nhất ở edge với 2 missing và 2 thừa.
-- Giả thuyết vì sao (méo fisheye, box lỏng, thiếu `ego_body`, ...) và giới hạn của slice ba frame: Ở edge hình học fisheye làm box khó bám vật và dễ bị cắt; ở mid model có nhiều box thừa. Slice chỉ có ba frame nên không đủ để kết luận theo thời gian hoặc theo camera khác.
+- Zone nào người (L) và model (M) gãy nhiều nhất, dẫn số ở bảng trên: Model gãy nhiều nhất ở **mid** (4 missing `LR_noM`+`R_only`, 8 thừa `M_only`). Người gãy nhiều nhất ở **edge** (2 missing, 2 spurious; lỗi L chính `BOX_GEOMETRY`). Center của L gần khớp reference (1 missing + 1 spurious trên 6 `n_ref`).
+- Giả thuyết vì sao (méo fisheye, box lỏng, thiếu `ego_body`, ...) và giới hạn của slice ba frame: Edge fisheye làm IoU rơi xuống dưới 0.5 dù cùng vật (`L2+R5` trên `adasind_082170.jpg`) và làm class Truck/ThreeWheeler khó đọc (`L2+R2` trên `adasind_102750.jpg`). Mid là nơi YOLO26m tạo nhiều box thừa, không chứng minh model kém trên bốn camera. Slice chỉ ba frame một camera; `center/mid/edge` là khoảng cách tới tâm vòng kính, không phải khoảng cách tới xe. Export này đã có `ego_body`; khác biệt L/R còn lại không còn là thiếu ignore.

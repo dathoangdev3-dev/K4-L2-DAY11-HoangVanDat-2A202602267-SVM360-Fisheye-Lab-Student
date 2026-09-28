@@ -1,5 +1,6 @@
 id,date,question,decision,rationale,status
-1,2026-09-28,QA B2-edge,Review ba ca L_only,Kiểm tra ba frame theo R01,open
-2,2026-09-28,Edge geometry,Keep with reason,Độ méo fisheye làm box edge nhạy theo ngưỡng IoU,accepted
-3,2026-09-28,Model M_only,Escalate,Model có nhiều box thừa ở mid cần soi hard negative,escalated
-4,2026-09-28,Rework scope,Rework,Ưu tiên ca missing và wrong class trước khi chốt,open
+1,2026-09-28,Khóa lại B2-edge bằng final_b2_day11.zip,Relock r1_craft và rework mã E999-723D,Bản khóa cũ CF0B còn box <H và thiếu ego_body; selfqc/draft đang đọc lock cũ,accepted
+2,2026-09-28,Tên task XML không có raw_fisheye,Giữ export CVAT 1.1 không khóa lại chỉ vì meta,Meta in ra Bus; định dạng 1.1 đúng; ghi cảnh báo selfqc thay vì sửa XML tay sau lock,accepted
+3,2026-09-28,K12 fill polygons,Degrade k12,Export cuối không có polygon đối chứng fill; vẫn selfqc và lock đủ ba frame,accepted
+4,2026-09-28,adasind_102750.jpg L2 vs R2 class,Escalate Truck vs ThreeWheeler,IoU 0.909 cùng vị trí mép trái; ảnh lóa nắng không đủ để copy reference,escalated
+5,2026-09-28,adasind_069450.jpg L5 blue cart,Keep with reason,Vật nhìn thấy ≥40px; teaching reference không box; không xóa chỉ để khớp R,accepted

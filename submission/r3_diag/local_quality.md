@@ -1,13 +1,13 @@
 # Đối chiếu chất lượng cục bộ — rectangle
 
 Teaching reference, không phải gold set đã phê duyệt; không có điểm đạt tự động.
-Nguồn: export r1_craft đã khóa SHA256 `cf0ba49cc457c5827f0a814e33e840221eae456ecadbcdb42e0b281098cf70d2`; slice `B2-edge`.
+Nguồn: export r1_craft đã khóa SHA256 `e999723dd7f47603e85221ccad8c6a37508daac2ebcae44f7d165a4e4fa7a9e5`; slice `B2-edge`.
 Ghép hình học greedy một-một theo IoU ≥ 0.50, rồi so class; H ≥ 40 px.
 Box trái nằm chủ yếu trong ignore_region reference không tính. Polygon, polyline, track không được chấm.
 Đây là phép tính offline của lab, không phải báo cáo hay kết quả tương đương CVAT Premium.
 
 Frame được tính: adasind_069450.jpg, adasind_082170.jpg, adasind_102750.jpg. Frame thiếu trong export: không.
-TP=15; FP=4; FN=3; số lần đối chiếu=21; mean IoU của TP=0.796.
+TP=15; FP=4; FN=3; số lần đối chiếu=21; mean IoU của TP=0.809.
 
 | Chỉ số | Micro | Macro | Nhãn thấp nhất |
 |---|---:|---:|---:|
